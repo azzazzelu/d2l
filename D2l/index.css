@@ -1,0 +1,266 @@
+body {
+    margin: 0 auto;
+    background: black;
+}
+
+main {
+    margin: 0 auto;
+    background: #8A8A8A;
+}
+
+header nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #343A40;
+    color: #fff;
+}
+
+footer {
+    background: #343A40;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+}
+
+footer img {
+    width: 80px;
+    height: 80px;
+}
+
+.wk {
+    width: 50px;
+}
+
+.href {
+    gap: 30px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.href {
+    display: flex;
+}
+
+.bg {
+    background: url("img/Rectangle\ 1.png") no-repeat center;
+    height: 100vh;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dota2Learn {
+    margin-top: 300px;
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    filter: brightness(100%);
+}
+
+.dota2Learn h1 {
+    color: #F5F5F5;
+    font-size: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dota2Learn p {
+    color: #F5F5F5;
+    font-size: 40px;
+    text-align: center;
+}
+
+.coach {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.coach_cont {
+
+    padding: 50px;
+    border-radius: 45px;
+    background: #D9D9D9;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.personal_training {
+    background: #8A8A8A;
+    width: 650px;
+    border-radius: 45px;
+    padding-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+}
+
+.price {
+    color: #000;
+    background: #D9D9D9;
+    border-radius: 45px;
+    padding: 10px;
+    width: 70px;
+    text-align: center;
+    margin-left: 110px;
+}
+
+.textCoach {
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    border-radius: 45px;
+    background: #D9D9D9;
+    margin: 0 auto;
+    border-radius: 45px;
+}
+
+/* help */
+.help {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.helpTitle {
+
+    background: #D9D9D9;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    height: 42px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 45px;
+}
+
+.help_cont {
+
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.buy_acc {
+    padding: 20px;
+    width: 670px;
+    background: #D9D9D9;
+    border-radius: 45px;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cont {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+/* training */
+.training {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.trainingTitle {
+
+    background: #D9D9D9;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    height: 42px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 45px;
+}
+
+.training_cont {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.training_cont iframe {
+    border-radius: 45px;
+}
+
+/* acc  */
+.acc {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.accTitle {
+    background: #D9D9D9;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    height: 42px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 45px;
+}
+
+.acc_card {
+    width: 340px;
+    height: 390px;
+    background: #D9D9D9;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.textAcc {
+    margin: 0 auto;
+    color: #000;
+    font-size: 12px;
+    width: 240px;
+    background: #8A8A8A;
+    border-radius: 45px;
+}
+
+.priceAcc {
+    padding: 10px;
+    margin: 20px auto;
+    color: #000;
+    font-size: 25px;
+    border-radius: 45px;
+    width: 240px;
+    background: #8A8A8A;
+    margin-top: 20px;
+
+}
+.acc_cont {
+    display: grid;
+    gap: 55px;
+    grid-template-columns: repeat(4, 1fr);
+}
