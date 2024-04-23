@@ -2,9 +2,11 @@ body {
     margin: 0 auto;
     background: black;
 }
-button{
+
+button {
     cursor: pointer;
 }
+
 main {
     margin: 0 auto;
     background: #8A8A8A;
@@ -191,7 +193,7 @@ nav {
 /* training */
 .training {
     padding-top: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 324.5px;
 }
 
 .trainingTitle {
@@ -219,7 +221,7 @@ nav {
 /* acc  */
 .acc {
     padding-top: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 174px;
 }
 
 .accTitle {
@@ -244,10 +246,10 @@ nav {
 .textAcc {
     margin: 0 auto;
     color: #000;
-    font-size: 12px;
+    font-size: 14px;
     width: 240px;
     background: #8A8A8A;
-    border-radius: 45px;
+    border-radius: 25px;
 }
 
 .priceAcc {
@@ -255,20 +257,21 @@ nav {
     margin: 20px auto;
     color: #000;
     font-size: 25px;
-    border-radius: 45px;
-    width: 240px;
+    border-radius: 25px;
+    width: 220px;
     background: #8A8A8A;
-    margin-top: 20px;
+    margin-top: 15px;
     border: none;
 }
-.open-modal{
+
+.open-modal {
     border: none;
     cursor: pointer;
 }
 
 .acc_cont {
     display: grid;
-    gap: 55px;
+    gap: 45px;
     grid-template-columns: repeat(4, 1fr);
 }
 
@@ -364,4 +367,78 @@ nav {
 .arrow {
     border: none;
     background: none;
+}
+
+/* basket */
+
+.basket {
+    width: 1251px;
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 65px;
+    margin: 0 auto;
+
+}
+
+.title_basket {
+    text-align: center;
+
+}
+
+/* sign */
+.form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 300px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input {
+    width: 300px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+}
+
+.form button {
+    background: #343A40;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 306px;
+    position: relative;
+    left: 0%;
+}
+
+.form button:hover {
+    background-color: #535e69;
+}
+
+.title_sign {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.border {
+    border-radius: 15px;
+    border: 2px solid #333;
+
+}
+
+.basket_cont {
+    margin-left: -150px;
+    width: 75%;
+    padding: 328.5px;
+}
+.basket_cont .form{
+    padding: 0px;
+    padding-top: 50px;
 }
